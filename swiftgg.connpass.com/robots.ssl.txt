@@ -1,0 +1,28 @@
+User-agent: Googlebot
+User-agent: TwitterBot
+User-agent: facebookexternalhit
+Allow: /
+Disallow: /series/optout/
+Disallow: /account/
+Disallow: /api/
+Disallow: /search/
+
+User-agent: Bingbot
+Crawl-delay: 20
+Allow: /
+Disallow: /series/optout/
+Disallow: /account/
+Disallow: /api/
+Disallow: /search/
+Disallow: /user/
+Disallow: /event/
+Disallow: /calendar/
+
+# Every bot that might possibly read and respect this file
+User-agent: *
+Allow: /*.ics
+Allow: /*/ja.atom
+Disallow: /
+
+# Wait 5 second between successive requests.
+Crawl-delay: 5

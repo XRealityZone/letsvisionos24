@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /search
+Disallow: /*?*
+Disallow: /child-app/*
+Disallow: /v1/*
+Disallow: /ai-copilot/*
